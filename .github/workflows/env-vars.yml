@@ -1,0 +1,14 @@
+name: Enviornment variables
+
+on: [push]
+
+jobs:
+  print-env:
+    runs-on:
+      ubunut-latest
+    env: 
+      GREETING: "Hello"
+      NAME: "Chethan"
+    steps:
+      - name: Printing-greeting
+        run: echo"$GREETING $NAME"
