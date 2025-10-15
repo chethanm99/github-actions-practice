@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "SUCCESS: The workflow is now running correctly!"
+        run: echo "The workflow is now running correctly!"
